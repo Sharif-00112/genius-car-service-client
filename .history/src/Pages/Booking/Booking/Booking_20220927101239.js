@@ -18,7 +18,7 @@ const Booking = () => {
     return ( 
         <div>
             <h2>Details of: {service.name}</h2>
-            <small className='text-secondary p-2 m-2'>Service Code - {serviceId}</small>
+            <h2 className='text-secondary p-2 m-2'>This is Booking {serviceId}</h2>
         </div>
     );
 };
